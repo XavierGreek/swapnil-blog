@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Skip to content
 Pull requests
@@ -32,6 +33,8 @@ Latest commit 27f1384 1 minute ago
 History
 1 contributor
 104 lines (76 sloc) 1.57 KB
+=======
+>>>>>>> ba8d10cdfe9f22e5b0e5211c80d0657a6e576c72
 # Logs
 logs
 *.log
@@ -136,6 +139,7 @@ dist
 
 # TernJS port file
 .tern-port
+<<<<<<< HEAD
 
     © 2020 GitHub, Inc.
     Terms
@@ -151,3 +155,5 @@ dist
     Blog
     About
 
+=======
+>>>>>>> ba8d10cdfe9f22e5b0e5211c80d0657a6e576c72
