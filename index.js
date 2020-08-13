@@ -50,6 +50,11 @@ app.get('/admin',async function(req,res){
   var login=await Login.find();
 })
 
-app.listen(3000, function() {
+let port = process.env.PORT;
+if (port == null || port==""){
+  PORT = 3000;
+}
+
+app.listen(PORT, function() {
   console.log("Server started on port 3000");
 });
