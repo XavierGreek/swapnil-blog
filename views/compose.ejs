@@ -1,0 +1,23 @@
+<%-include('./partials/header2');-%>
+<div class="compose">
+<h1>Compose</h1>
+<form class="form-group" action="/blogpost/compose" method="post">
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Image URL</label>
+<input type="text" class="form-control" id="exampleFormControlInput1" name="postImage">
+</div>
+<label for="exampleFormControlInput1">Title</label>
+<input type="text" class="form-control" id="exampleFormControlInput1" name="postTitle">
+<div class="form-group">
+<Label for="exampleFormControlTextarea1">Post</Label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="postData"></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary" name="button">Publish</button>
+
+</form>
+<div class="footer">
+<%- include('./partials/footer');%>
+</div>
+</div>
