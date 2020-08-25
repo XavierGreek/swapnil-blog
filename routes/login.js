@@ -4,6 +4,8 @@ const mongoose=require('mongoose');
 const Login=require('../models/loginschema');
 const router=express.Router();
 
+router.use('/blogpost',blogpost);
+
 mongoose.connect("mongodb://localhost:27017/blog",{ useNewUrlParser: true,useUnifiedTopology: true });
 router.get('/',function(req,res){
   res.render('login');
