@@ -18,6 +18,12 @@
      height: auto;
      background-color:black;
    }
+
+   .header ul{
+    margin-top:1.5vh;
+  
+  }
+
    .header.active {
      background: rgb(32, 144, 172);
      -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -92,7 +98,7 @@
    a{
      color: black;
    }
-   a:hover{
+   a{
        text-decoration: none;
    }
    .post

@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x:hidden;
+  height:100vh;
+}
+
 .header{
   display: flex;
   min-height:60px;
@@ -65,10 +70,15 @@
 .nav-links{
   width:100%;
 }  
+
+.header ul{
+  margin-top:0vh;
+
+}
 }
 @media screen and (max-width:1024px) {
   body{
-    overflow-x:hidden;
+    
   }
   .nav-links {
     position: fixed;
@@ -95,16 +105,19 @@
   transform: translateX(0%);
 }
 
-a{
+.header a{
   font-family: 'Montserrat', sans-serif;
   font-weight:800;
   font-size:18px;
   color:white;
   text-transform: uppercase;
-  color: black;
 }
 a:hover{
     text-decoration: none;
+}
+
+.head{
+  color:black;
 }
 .post
 {
